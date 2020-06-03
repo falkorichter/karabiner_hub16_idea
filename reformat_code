@@ -1,0 +1,23 @@
+{
+  "title": "Android Studio hub16",
+  "rules": [
+    {
+      "description": "Some usefull android studio stuff",
+      "manipulators": [
+        {
+            "type": "basic",
+            "from": {
+                "key_code": "t",
+                "modifiers": {
+                    "mandatory": ["f24"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "delete_or_backspace"
+                }
+            ]
+        }
+     ]
+  }
+}
